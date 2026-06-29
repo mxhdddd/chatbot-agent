@@ -474,4 +474,5 @@ Mathyas Haddadou
 - **Ne committe JAMAIS le `.env` avec tes vraies clés** ✅ Il est dans `.gitignore`
 - Le `.env.example` est public (il ne contient pas les vraies clés)
 - Si tu as accidentellement commité une clé, elle a été rejetée par GitHub
+- ⚠️ IMPORTANT: Le fichier `.env.example` est juste un modèle. Tu DOIS créer un fichier `.env` (sans "example") dans le dossier `backend/` en copiant `.env.example` avec la commande `copy .env.example .env` (Windows) ou `cp .env.example .env` (Mac/Linux), puis y ajouter tes vraies clés API. Si tu ne vois que `.env.example` et pas `.env`, le serveur ne trouvera pas tes clés !
 
