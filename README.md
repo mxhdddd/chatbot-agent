@@ -3,7 +3,7 @@
 **Un chatbot intelligent avec intégration API Deepseek, web search, calcul et RAG (Retrieval Augmented Generation)**
 
 Auteur : Mathyas Haddadou  
-Créé avec : Claude Code + FastAPI + React  
+Créé avec : FastAPI + React  
 Stack : Python (Backend) + JavaScript (Frontend)
 
 ---
